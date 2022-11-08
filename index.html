@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICING JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="maincontainer">
+
+<div id="container1">
+    <div id="card1"></div>
+    <div id="card2"></div>
+    <div id="card3"></div>
+</div>
+
+<div id="container2">
+    <div id="card4"></div>
+    <div id="card5"></div>
+    <div id="card6"></div>
+</div>
+
+</div>
+
+</body>
+
+<script>
+
+document.getElementById("card1").addEventListener("mouseover", function() {
+document.getElementById("card1").classList.add("black");
+document.getElementById("card1").innerHTML = "Forest";
+
+})
+
+document.getElementById("card1").addEventListener("mouseleave", function() {
+    document.getElementById("card1").classList.remove("black");
+document.getElementById("card1").innerHTML = "";
+})
+
+document.getElementById("card2").addEventListener("mouseover", function() {
+document.getElementById("card2").classList.add("black");
+document.getElementById("card2").innerHTML = "Lake";
+
+})
+
+document.getElementById("card2").addEventListener("mouseleave", function() {
+document.getElementById("card2").classList.remove("black");
+document.getElementById("card2").innerHTML = "";
+})
+
+document.getElementById("card3").addEventListener("mouseover", function() {
+document.getElementById("card3").classList.add("black");
+document.getElementById("card3").innerHTML = "Bazaar";
+
+})
+
+document.getElementById("card3").addEventListener("mouseleave", function() {
+document.getElementById("card3").classList.remove("black");
+document.getElementById("card3").innerHTML = "";
+})
+
+document.getElementById("card4").addEventListener("mouseover", function() {
+    document.getElementById("card4").classList.add("black");
+document.getElementById("card4").innerHTML = "Looking at View";
+
+})
+
+document.getElementById("card4").addEventListener("mouseleave", function() {
+    document.getElementById("card4").classList.remove("black");
+document.getElementById("card4").innerHTML = "";
+})
+
+document.getElementById("card5").addEventListener("mouseover", function() {
+    document.getElementById("card5").classList.add("black");
+document.getElementById("card5").innerHTML = "Dark";
+
+})
+
+document.getElementById("card5").addEventListener("mouseleave", function() {
+    document.getElementById("card5").classList.remove("black");
+document.getElementById("card5").innerHTML = "";
+})
+
+document.getElementById("card6").addEventListener("mouseover", function() {
+    document.getElementById("card6").classList.add("black");
+document.getElementById("card6").innerHTML = "Mountain";
+
+})
+
+document.getElementById("card6").addEventListener("mouseleave", function() {
+    document.getElementById("card6").classList.remove("black");
+document.getElementById("card6").innerHTML = "";
+})
+
+
+</script>
+</html>

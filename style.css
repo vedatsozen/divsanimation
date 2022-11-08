@@ -1,0 +1,266 @@
+@media only screen and (min-width:480px) {
+
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+:root {
+
+--divbgcolor: maroon;
+--divfontsize: 30px;
+
+}
+
+
+
+#maincontainer {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:1px;
+
+}
+
+#container1 {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    gap: 10px;
+}
+
+#container1 > div {
+    height: 300px;
+    width: 400px;
+    box-shadow: 0 0 20px black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:var(--divfontsize);
+    letter-spacing: 4px;
+    cursor: pointer;
+
+  
+}
+
+#container1 > div > img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#container2 {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    gap:10px;
+}
+
+#container2 > div {
+    height: 300px;
+    width: 400px;
+    box-shadow: 0 0 20px black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:var(--divfontsize);
+    letter-spacing: 4px;
+    cursor: pointer;
+  
+}
+
+#card1 {
+    background-image: url("photo1.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#card2 {
+    background-image: url("photo2.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#card3 {
+    background-image: url("photo3.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#card4 {
+    background-image: url("photo4.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#card5 {
+    background-image: url("photo5.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#card6 {
+    background-image: url("photo6.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#card1.black, #card2.black, #card3.black, #card4.black, #card5.black, #card6.black {
+  
+    background-image: none;
+    background-color:var(--divbgcolor) !important;
+}
+
+}
+
+
+
+@media only screen and (max-width:480px) {
+
+    body {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    
+    }
+    
+    :root {
+    
+    --divbgcolor: maroon;
+    --divfontsize: 30px;
+    
+    }
+    
+    
+    
+    #maincontainer {
+        
+        height: fit-content;
+        width:90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap:1px;
+    
+    }
+    
+    #container1 {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        height: fit-content;
+        padding: 5px;
+        gap: 10px;
+    }
+    
+    #container1 > div {
+        height: 300px;
+        width:100%;
+        box-shadow: 0 0 20px black;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        font-size:var(--divfontsize);
+        letter-spacing: 4px;
+        cursor: pointer;
+    
+      
+    }
+    
+    #container1 > div > img {
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    #container2 {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        height: fit-content;
+        padding: 5px;
+        gap:10px;
+    }
+    
+    #container2 > div {
+        height: 300px;
+        width:100%;
+        box-shadow: 0 0 20px black;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        font-size:var(--divfontsize);
+        letter-spacing: 4px;
+        cursor: pointer;
+      
+    }
+    
+    #card1 {
+        background-image: url("photo1.jpg");
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #card2 {
+        background-image: url("photo2.jpg");
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #card3 {
+        background-image: url("photo3.jpg");
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #card4 {
+        background-image: url("photo4.jpg");
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #card5 {
+        background-image: url("photo5.jpg");
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #card6 {
+        background-image: url("photo6.jpg");
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #card1.black, #card2.black, #card3.black, #card4.black, #card5.black, #card6.black {
+      
+        background-image: none;
+        background-color:var(--divbgcolor) !important;
+    }
+    
+    }
